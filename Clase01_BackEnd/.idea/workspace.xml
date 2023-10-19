@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="647d9f75-6f21-48db-a8bd-e207529084be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/backend/clase/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/CV-FrontEnd1/cvBatmanTarea7/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/CV-FrontEnd1/cvBatmanTarea7/img/ico_instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/CV-FrontEnd1/cvBatmanTarea7/img/ico_linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/CV-FrontEnd1/cvBatmanTarea7/img/logo batman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/CV-FrontEnd1/cvBatmanTarea7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/TIENDA-PIZZA_Clase_11/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/TIENDA-PIZZA_Clase_11/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/TIENDA-PIZZA_Clase_11/img/PizzaFalling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/TIENDA-PIZZA_Clase_11/img/delivery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd1/tareas/TIENDA-PIZZA_Clase_11/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2WanPFUrIf8HJRg2qQdrCS1uQmT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="647d9f75-6f21-48db-a8bd-e207529084be" name="Changes" comment="" />
+      <created>1696979532662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696979532662</updated>
+    </task>
+    <servers />
+  </component>
+</project>
