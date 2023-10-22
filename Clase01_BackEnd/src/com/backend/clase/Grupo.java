@@ -27,12 +27,15 @@ public class Grupo {
     }
 
     public boolean esMayor(int edad){
+
         return edad > 18;
     }
     public  boolean cumpleCantidadLetras(String nombre){
+
         return nombre.length() >= 5;
     }
     public boolean cumpleCondiciones(int edad, String nombre){
-        return esMayor(edad) && cumpleCantidadLetras(nombre);
+
+    return esMayor(edad) && cumpleCantidadLetras(nombre);
     }
 }
