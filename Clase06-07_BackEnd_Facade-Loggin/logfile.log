@@ -1,0 +1,12 @@
+[2023-10-25 18:33:39] [ INFO ] [ApiProducto:11] Descuento correspondiente por producto: 
+Producto: 
+Nombre: choclo
+Tipo: latas
+Descuento: 10
+[2023-10-25 18:33:39] [ INFO ] [ApiTarjeta:14] Descuento correspondiente por tarjeta: 
+Tarjeta: 
+Numero: 4567893
+Banco: Galicia
+Descuento: 0
+[2023-10-25 18:33:39] [ INFO ] [ApiCantidad:13] Descuento correspondiente por cantidad: 15
+[2023-10-25 18:33:39] [ INFO ] [FachadaDescuento:25] Descuento total: 25
