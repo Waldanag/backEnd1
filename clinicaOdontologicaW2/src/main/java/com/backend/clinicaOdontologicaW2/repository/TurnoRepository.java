@@ -2,6 +2,9 @@ package com.backend.clinicaOdontologicaW2.repository;
 
 import com.backend.clinicaOdontologicaW2.entity.Turno;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public class TurnoRepository {
+@Repository
+public class TurnoRepository extends JpaRepository<Turno, Long>{
+
 }
