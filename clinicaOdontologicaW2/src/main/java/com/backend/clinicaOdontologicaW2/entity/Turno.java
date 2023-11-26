@@ -24,6 +24,7 @@ public class Turno {
     }
 
     public Turno(LocalDateTime fechaYHora, Odontologo odontologo, Paciente paciente) {
+
         this.fechaYHora = fechaYHora;
         this.odontologo = odontologo;
         this.paciente = paciente;
