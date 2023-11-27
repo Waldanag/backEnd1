@@ -75,7 +75,16 @@
 			<artifactId>modelmapper</artifactId>
 			<version>2.4.4</version>
 		</dependency>
-
+        <dependency>
+            <groupId>net.eunjae.android.modelmapper</groupId>
+            <artifactId>ModelMapper</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper-module-java8</artifactId>
+			<version>1.2.3</version>
+		</dependency>
 
 
 	</dependencies>
