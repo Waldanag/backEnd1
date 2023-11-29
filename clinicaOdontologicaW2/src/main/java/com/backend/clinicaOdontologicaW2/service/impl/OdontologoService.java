@@ -7,6 +7,7 @@ import com.backend.clinicaOdontologicaW2.entity.Odontologo;
 import com.backend.clinicaOdontologicaW2.exceptions.ResourceNotFoundException;
 import com.backend.clinicaOdontologicaW2.repository.OdontologoRepository;
 import com.backend.clinicaOdontologicaW2.service.IOdontologoService;
+import com.backend.clinicaOdontologicaW2.utils.JsonPrinter;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,10 +28,10 @@ public class OdontologoService implements IOdontologoService {
 
     @Override
     public List<OdontologoSalidaDto> listarOdontologos() {
-        List<OdontologoSalidaDto> odontologos = odontologoRepository.findAll().stream()
-                .map(o -> modelMapper.map(o, OdontologoSalidaDto.class)).toList();
-        LOGGER.info("Listado de todos los odontologos: {}", odontologos);
-        return odontologos;
+        List<OdontologoSalidaDto> odontologosSalidaDto = odontologoRepository.findAll().stream()
+                .map(odontologo -> modelMapper.map(odontologo, OdontologoSalidaDto.class)).toList();
+        LOGGER.info("Listado de todos los odontologos: {}", JsonPrinter.toString(odontologosSalidaDto));
+        return odontologosSalidaDto;
     }
 
     @Override
