@@ -1,12 +1,8 @@
 package com.backend.clinicaOdontologicaW2.service.impl;
 
-import com.backend.clinicaOdontologicaW2.dto.entrada.paciente.PacienteEntradaDto;
 import com.backend.clinicaOdontologicaW2.dto.entrada.turno.TurnoEntradaDto;
-import com.backend.clinicaOdontologicaW2.dto.modificacion.PacienteModificacionEntradaDto;
 import com.backend.clinicaOdontologicaW2.dto.modificacion.TurnoModificacionEntradaDto;
-import com.backend.clinicaOdontologicaW2.dto.salida.paciente.PacienteSalidaDto;
 import com.backend.clinicaOdontologicaW2.dto.salida.turno.TurnoSalidaDto;
-import com.backend.clinicaOdontologicaW2.entity.Paciente;
 import com.backend.clinicaOdontologicaW2.entity.Turno;
 import com.backend.clinicaOdontologicaW2.exceptions.ResourceNotFoundException;
 import com.backend.clinicaOdontologicaW2.repository.TurnoRepository;
