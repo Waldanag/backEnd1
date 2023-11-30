@@ -24,7 +24,7 @@ class TurnoServiceTest {
     @Order(1)
     void deberiaLanzarExcepcionAlActualizarTurnoInexistente() {
         TurnoModificacionEntradaDto modificacionDto = new TurnoModificacionEntradaDto();
-        modificacionDto.setId(999L); // ID que no existe en el stub
+        modificacionDto.setId(999L);
         modificacionDto.setFechaYHora(LocalDateTime.now().plusDays(2));
 
         assertThrows(ResourceNotFoundException.class, () -> turnoService.actualizarTurno(modificacionDto));
