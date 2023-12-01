@@ -21,19 +21,19 @@ public class TurnoModificacionEntradaDto {
     private LocalDateTime fechaYHora;
     @NotNull(message = "El campo Odontologo no puede ser nulo")
     @Valid
-    private OdontologoModificacionEntradaDto odontologoModificacionEntradaDto;
+    private Long odontologo;
     @NotNull(message = "El campo Paciente no puede ser nulo")
     @Valid
-    private PacienteModificacionEntradaDto pacienteModificacionEntradaDto;
+    private Long paciente;
 
     public TurnoModificacionEntradaDto() {
     }
 
-    public TurnoModificacionEntradaDto(Long id, LocalDateTime fechaYHora, OdontologoModificacionEntradaDto odontologoModificacionEntradaDto, PacienteModificacionEntradaDto pacienteModificacionEntradaDto) {
+    public TurnoModificacionEntradaDto(Long id, LocalDateTime fechaYHora, Long odontologo, Long paciente) {
         this.id = id;
         this.fechaYHora = fechaYHora;
-        this.odontologoModificacionEntradaDto = odontologoModificacionEntradaDto;
-        this.pacienteModificacionEntradaDto = pacienteModificacionEntradaDto;
+        this.odontologo = odontologo;
+        this.paciente = paciente;
     }
 
     public Long getId() {
@@ -52,19 +52,19 @@ public class TurnoModificacionEntradaDto {
         this.fechaYHora = fechaYHora;
     }
 
-    public OdontologoModificacionEntradaDto getOdontologoModificacionEntradaDto() {
-        return odontologoModificacionEntradaDto;
+    public Long getOdontologo() {
+        return odontologo;
     }
 
-    public void setOdontologoModificacionEntradaDto(OdontologoModificacionEntradaDto odontologoModificacionEntradaDto) {
-        this.odontologoModificacionEntradaDto = odontologoModificacionEntradaDto;
+    public void setOdontologo(Long odontologo) {
+        this.odontologo = odontologo;
     }
 
-    public PacienteModificacionEntradaDto getPacienteModificacionEntradaDto() {
-        return pacienteModificacionEntradaDto;
+    public Long getPaciente() {
+        return paciente;
     }
 
-    public void setPacienteModificacionEntradaDto(PacienteModificacionEntradaDto pacienteModificacionEntradaDto) {
-        this.pacienteModificacionEntradaDto = pacienteModificacionEntradaDto;
+    public void setPaciente(Long paciente) {
+        this.paciente = paciente;
     }
 }
